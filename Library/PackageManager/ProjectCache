@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638075894509747604
-    m_Hash: 4075583529
+      ticks: 638076772493486625
+    m_Hash: 3596481429
   m_LockFileStatus:
     m_FilePath: D:/11_UNIVERSIDAD_UJI/Aberrant_Invasion/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638075894510157978
-    m_Hash: 1827172426
+      ticks: 638076772493977074
+    m_Hash: 4075932022
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -1129,12 +1129,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: b61ff0378932fdf03b5891e09c91728337de674c
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.16
+    - packageId: com.unity.ide.visualstudio@2.0.17
       testable: 0
       isDirectDependency: 1
-      version: 2.0.16
+      version: 2.0.17
       source: 1
-      resolvedPath: D:\11_UNIVERSIDAD_UJI\Aberrant_Invasion\Library\PackageCache\com.unity.ide.visualstudio@2.0.16
+      resolvedPath: D:\11_UNIVERSIDAD_UJI\Aberrant_Invasion\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -1218,13 +1218,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637914298680000000
-      documentationUrl: 
+      datePublishedTicks: 638059987360000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: c01855ef6461b821ab0226135e96a4ee86de96be
+        revision: 1f126893bfb18ea9661fb15771613e841467073c
         path: 
     - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
