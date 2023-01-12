@@ -6,7 +6,7 @@ public class MC_Controller : MonoBehaviour
 {
     [SerializeField] public float speed = 10.0f;
     public int maxHealth = 100;
-    int currentHealth;
+    [SerializeField] int currentHealth = 100;
 
     Rigidbody2D rigidbody2d;
     // animator = Getcomponent<Animator>();
@@ -59,25 +59,37 @@ public class MC_Controller : MonoBehaviour
 
 
 
+  //      if (isInvincible)
+  //      {
+  //          invincibleTimer -= Time.deltaTime;
+  //          if (invincibleTimer < 0)
+  //              isInvincible = false;
+  //      }
+  //  }
 
-        if (isInvincible)
-        {
-            invincibleTimer -= Time.deltaTime;
-            if (invincibleTimer < 0)
-                isInvincible = false;
-        }
+  //  public void ChangeHealth(int amount)
+  //  {
+  //      if (amount < 0)
+  //      {
+  //          if (isInvincible)
+  //              return;
+  //          isInvincible = true;
+  //          invincibleTimer = timeInvincible;
+  //      }
+
+
+		//}
+  //      currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+  //      Debug.Log(currentHealth + "/" + maxHealth);
     }
 
-    public void ChangeHealth(int amount)
+    public void TakeDamage(int damage)
     {
-        if (amount < 0)
+        currentHealth -= damage;
+
+        if (currentHealth <= 0)
         {
-            if (isInvincible)
-                return;
-            isInvincible = true;
-            invincibleTimer = timeInvincible;
+            Debug.Log("Character is dead");
         }
-        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-        Debug.Log(currentHealth + "/" + maxHealth);
     }
 }

@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\slashDisable.cs" />
     <Compile Include="Assets\Scripts\swordWeapon.cs" />
     <Compile Include="Assets\Scripts\MC_Controller.cs" />
+    <Compile Include="Assets\Scripts\Enemigo1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hero_Knight_2\License.txt" />
